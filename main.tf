@@ -78,7 +78,7 @@ resource "aws_security_group" "allow_traffic" {
     from_port        = 22
     to_port          = 22
     protocol         = "tcp"
-    cidr_blocks      = ["89.64.32.166/32"]
+    cidr_blocks      = ["89.64.32.166/32"] #przy wpisanym moim ip mogę połączyć się ssh, przy innym nie
    
   }
 
